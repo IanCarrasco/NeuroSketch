@@ -1,0 +1,151 @@
+@font-face{
+
+  font-family: 'Colfax';
+  src: url('./colfaxMedium.ttf');
+
+}
+
+.App {
+  text-align: center;
+  background:#262626;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sketcha{
+  z-index: 1;
+  transform: scale(0.7) !important;
+  position: fixed;
+  top:-335px;
+
+}
+.title-header{
+
+  font-family: 'Colfax';
+  font-weight: 600;
+  padding:10px;
+  margin:3px;
+}
+.title-header-1{
+
+  font-family: 'Colfax';
+  padding:10px;
+  margin:3px;
+  margin-top: -2px;
+  font-weight: 200;
+}
+.calibrate{
+  margin-left:5px;
+  margin-top: 15px;
+  background-color: black;
+  color:#fff;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Colfax';
+  height: 40px;
+  width: 200px;
+  border-radius: 1000px;
+
+
+}
+.container{
+  width: 40vw;
+  height: 50vh;
+  z-index: 999;
+  position: fixed;
+  left: 405px;
+  top: 149px;
+  background: rgba(0,0,0,0);
+}
+.container canvas{
+  width: 684px;
+  height: 477px;
+  border-radius: 30px;
+}
+.timer{
+
+  font-size: 7rem;
+
+
+}
+.timer-1{
+
+  font-size: 7rem; 
+
+}
+.relax-page{
+  display: flex;
+  text-align: center;
+  position: fixed;
+  top:0%;
+  left:0%;
+  background-color: #262626; 
+  color:#fff; 
+  width:100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.start-button{
+  width:300px;
+  height: 75px; 
+  background: linear-gradient(to bottom, #b24592, #f15f79) !important;
+  color:#fff; 
+  border-radius: 10000px;
+  border: none; 
+  outline: none;
+  font-size: 3rem;
+  transition:0.2s;
+  cursor: pointer;
+}
+.start-button:hover{
+
+  transform: translateY(-5px)
+
+
+}
+.hidden{
+  display: none;
+
+}
+.main-window{
+
+  background: #000;
+  width:102vw;
+  height:102vh;
+
+
+}
+html{
+  overflow: hidden;
+  background-color: #000;
+  color:#fff;
+}
