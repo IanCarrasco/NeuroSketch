@@ -424,8 +424,8 @@ tween@^0.9.0:
   resolved "https://registry.yarnpkg.com/tween/-/tween-0.9.0.tgz#f856c7a9c9ab85ca9a2bc02282591aa2513a20ed"
 
 ua-parser-js@^0.7.18:
-  version "0.7.19"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 uws@^99.0.0:
   version "99.0.0"
